@@ -1,0 +1,102 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.game-cover{
+    justify-content: center;
+
+}
+.play{
+    display: flex;
+}
+#button{
+    height:100px;
+    width:100px;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-top: 30%;
+}
+p{
+    color:white;
+    float:right;
+    font-size: 2rem;
+    margin-right: 250px;
+    margin-top: 32%;
+    font-weight: bold;
+}
+h1{
+    color:rgb(113, 52, 199);
+    font-size: 4rem;
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    background-image: url("assets/vs.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    color:white;
+    font-size: 2.3rem;
+    font-weight: bold;
+
+}
+.first-box{
+    border: 1px solid yellow;
+    height:400px;
+    width:400px;
+}
+.second-box{
+    border: 1px solid yellow;
+    height:400px;
+    width:400px;
+}
+h1 .score{
+    font-size: larger;
+}
+.logo img{
+    height: 80px;
+    width: 80px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#randomImage{
+    border: none;
+    height:300px;
+    width:400px;
+}
+#display-image{
+    border: transparent;
+    height:250px;
+    width:400px;
+}
+button {
+    background-color: #f6e712; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: flex;
+    margin-left: 25%;
+}
+#result{
+    margin-top: 100px;
+    margin-right: 650px;
+}
+
+
